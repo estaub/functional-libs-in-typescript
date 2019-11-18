@@ -18,17 +18,20 @@ Some libraries were not studied because they didn't meet these support criteria:
 
 Criteria reviewed
 
-* more than one contributor
-* written in typescript
-* supported typescript before API locked in
-* Supports iterator chaining if relevant
-* Supports left-to-right function chaining (pipe vs. compose) if relevant
+* number of contributors
+* is written in typescript
+* number of outstanding typing-related issues
+* supports iterator chaining if relevant
+* supports left-to-right function chaining (pipe vs. compose) if relevant
 
 Areas supported
 
 * Collections
 * Either/Option
 * Try
+* Immutables
+* Pipe
+
 
 Candidates
 
@@ -40,7 +43,12 @@ Candidates
 * [pratica](https://github.com/rametta/pratica)
 * [prelude.ts](https://github.com/emmanueltouzery/prelude.ts)
 * [purify](https://github.com/gigobyte/purify)
+* [ramda](https://github.com/types/npm-ramda/)
+* [remeda](https://remedajs.com/)
 * [tifi](https://github.com/mobily/tifi)
+
+
+The inclusion of ramda is questionable, done largely because it's the dominant JS FP utility lib.  Typescript friendliness was never a consideration in its API design.  There are two type libraries for it: one in [DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/ramda), with many authors and recent PR's and a second, referenced in the [Ramda documentation](https://ramdajs.com/), in github.com/types/npm-ramda, which has not been updated in over a year.
 
 
 Not studied
@@ -57,9 +65,6 @@ Not studied
 * [pico-lambda](https://github.com/trainyard/pico-lambda)
 * [prelude-js](https://github.com/alanrsoares/prelude-js)
 * [prelude-ls](http://www.preludels.com/#)
-* [ramda](https://github.com/types/npm-ramda/)
-
-The elimination of ramda needs explanation, since it's the dominant JS FP utility lib.  The authors of the package have shown no interest in supporting TS
 
 
 
