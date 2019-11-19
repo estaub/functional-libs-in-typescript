@@ -27,24 +27,28 @@ Criteria reviewed
 Areas supported
 
 * Collections
-* Either/Option
+* Either
+* Option / Maybe
 * Try
 * Immutables
 * Pipe
+* Async
 
 
 Candidates
 
-* [collectable](https://github.com/frptools/collectable)
-* [fp-ts](https://gcanti.github.io/fp-ts/)
-* [funfix](https://github.com/funfix/funfix)  
-* [immer](https://immerjs.github.io/immer/docs/typescript)
-* [monet](https://github.com/monet/monet.js)
-* [pratica](https://github.com/rametta/pratica)
+* [collectable](https://github.com/frptools/collectable) - high-performance, persistent, immutable, functional data structures, a la Scala
+* [fp-ts](https://gcanti.github.io/fp-ts/) - a coherent collection of abstract datatypes and type classes, grounded in category theory, a la Scala.
+* [funfix](https://github.com/funfix/funfix) - complete implementations of Option, Either, and Try, a la Scala. 
+* [immer](https://immerjs.github.io/immer/docs/typescript) - typically used for React state management; supports semi-immutable objects that are only mutable within a well-defined scope
+* [iter-tools](https://github.com/iter-tools/iter-tools) - a rich toolset for working with iterables, both sync and async
+* [monet](https://github.com/monet/monet.js) - Scala-derived Either, Maybe, immutable List, and a few more.
+* [pratica](https://github.com/rametta/pratica) - Maybe, Result.  
 * [prelude.ts](https://github.com/emmanueltouzery/prelude.ts)
 * [purify](https://github.com/gigobyte/purify)
 * [ramda](https://github.com/types/npm-ramda/)
 * [remeda](https://remedajs.com/)
+* [sanctuary](https://sanctuary.js.org/)
 * [tifi](https://github.com/mobily/tifi)
 
 
